@@ -32,7 +32,7 @@
     button {
       background: none;
       color: inherit;
-      border: none;
+      border: 1px solid rgba(55, 53, 47, 0.16);
       padding: 0;
       font: inherit;
       cursor: pointer;
@@ -221,12 +221,17 @@
     }
 
     .rounded {
-      border-radius: 20px;
+      border-radius: 4px;
     }
 
     .small {
       padding: 5px 20px;
       font-size: 10px;
+    }
+
+    .small-mid {
+      padding: 8px 12px;
+      font-size: 14px;
     }
 
     .mid {
@@ -244,7 +249,7 @@
 
 <body>
 
-  <button class="btn large my-color rounded threeD" type="button" onclick="navigate()"> <i class="fa-solid fa-pen-to-square" style="color: #3783ad;"></i> Open Demo Feedback Form</button>
+  <button class="btn small-mid my-color rounded threeD" type="button" onclick="navigate()"> <i class="fa-solid fa-pen-to-square" style="color: #3783ad;"></i> Open Demo Feedback Form</button>
   
   <script>
     function navigate() {
